@@ -7,7 +7,8 @@ const config = {
 	token: "https://glimesh.tv/api/oauth/token",
 	response_type: "code",
 	client_secret: atob(r()),
-	scopes: { request: ["public"] }
+	scopes: { request: ["public"] },
+	debug: true
 };
 const oauthClient = new jso.JSO(config);
 console.log("client made, checking callback");
