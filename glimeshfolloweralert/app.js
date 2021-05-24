@@ -8,7 +8,7 @@ const config = {
 	client_secret: atob(r()),
 	scopes: { request: ["public"] }
 };
-const oauthClient = jso.JSO(config);
+const oauthClient = new jso.JSO(config);
 // Handle potential redirect arrivals w/ credentials
 oauthClient.callback();
 
