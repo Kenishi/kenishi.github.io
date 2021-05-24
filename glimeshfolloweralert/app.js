@@ -14,7 +14,7 @@ oauthClient.callback();
 
 async function onPageLoad() {
 	// Get tokens, including triggering an auth handshake if needed
-	const token = await oauthClient().getToken();
+	const token = await oauthClient.getToken();
 
 	// Subscribe for follower information
 	subscribeForFollowerAlerts(token);
