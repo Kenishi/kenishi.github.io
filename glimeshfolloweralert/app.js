@@ -31,6 +31,6 @@ function subscribeForFollowerAlerts(token) {
 window.onload = onPageLoad;
 
 function r() {
-	const a = "OGQ3YjdkMzQwZGEzMTgyYWYzZTM1NmNhNDY5Mzg4ODM0NzRjZTA4ZjExNzJkNjU2OWRmM2ZiNDRmNTZkNWRkMw";a+="==";return a;
+	let a = "OGQ3YjdkMzQwZGEzMTgyYWYzZTM1NmNhNDY5Mzg4ODM0NzRjZTA4ZjExNzJkNjU2OWRmM2ZiNDRmNTZkNWRkMw";a+="==";return a;
 }
 
